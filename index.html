@@ -1,0 +1,768 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Büşra Kozan'ın veri analizi, yazılım geliştirme ve biyoinformatik projeleri.">
+    <title>Büşra Kozan | Kişisel Portföy</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#anasayfa" class="logo">Büşra<span>.</span></a>
+
+        <nav class="nav-links">
+            <a href="#anasayfa">Ana Sayfa</a>
+            <a href="#hakkimda">Hakkımda</a>
+            <a href="#projeler">Projeler</a>
+            <a href="#iletisim">İletişim</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="anasayfa" class="hero">
+            <div class="hero-content">
+                <span class="hero-label">Kişisel Portföy</span>
+
+                <h1>Merhaba, ben <span>Büşra.</span></h1>
+
+                <p class="hero-description">
+                    Veri, teknoloji ve biyolojinin kesişiminde
+                    projeler geliştiriyor; öğrendiklerimi
+                    uygulamaya dönüştürüyorum.
+                </p>
+
+                <a href="#projeler" class="primary-button">
+                    Projelerimi keşfet <span>↗</span>
+                </a>
+            </div>
+
+            <div class="hero-decoration">
+                <div class="decoration-circle circle-one"></div>
+                <div class="decoration-circle circle-two"></div>
+                <div class="decoration-circle circle-three"></div>
+                <span class="decoration-symbol">✳</span>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="hakkimda" class="section about">
+            <div class="section-heading">
+                <span class="section-label">Kısaca ben</span>
+                <h2>Hakkımda</h2>
+                <p>Fikirlerden uygulamaya uzanan çalışmalarım.</p>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    Teknolojinin farklı alanlarında bilgi ve becerilerimi
+                    geliştirmeye odaklanıyorum. Veri analizi, yazılım
+                    geliştirme, biyoenformatik ve siber güvenlik gibi
+                    alanlarda çalışmalar yürütüyorum.
+                </p>
+
+                <p>
+                    Farklı disiplinlerden edindiğim bilgileri bir araya
+                    getirerek gerçek problemlere yönelik çözümler
+                    geliştirmeyi ve öğrendiklerimi somut projelere
+                    dönüştürmeyi önemsiyorum.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projeler" class="section projects">
+            <div class="section-heading">
+                <span class="section-label">Çalışmalarım</span>
+                <h2>Projelerim</h2>
+                <p>Farklı alanlarda geliştirdiğim projeler ve uygulamalar.</p>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- PROJECT 1: ATLAS -->
+                <article class="project-card">
+                    <div class="project-number">01</div>
+
+                    <div class="project-tags">
+                        <span>Yapay zekâ</span>
+                        <span>RAG</span>
+                        <span>Python</span>
+                    </div>
+
+                    <h3>ATLAS</h3>
+
+                    <p class="project-summary">
+                        İnternet bağlantısının kısıtlı olduğu ortamlarda
+                        farklı kayıtlardan bilgiye erişimi kolaylaştıran
+                        yerel yapay zekâ destekli karar destek sistemi.
+                    </p>
+
+                    <div class="project-actions">
+                        <details class="project-details">
+                            <summary>Proje hakkında <span>↗</span></summary>
+
+                            <div class="details-content">
+                                <h4>Proje hakkında</h4>
+
+                                <p>
+                                    ATLAS, internet bağlantısının kısıtlı olduğu
+                                    ortamlarda farklı türde kayıtlardan bilgiye
+                                    erişmeyi kolaylaştırmak için geliştirilmiş,
+                                    çevrimdışı çalışabilen bir karar destek
+                                    sistemidir.
+                                </p>
+
+                                <p>
+                                    İlk sürümünde gemi operasyon kayıtları
+                                    üzerinde çalışan sistem, V2 ile sağlık
+                                    verilerini de kapsayacak şekilde genişletildi.
+                                    Yapılandırılmış veri analizi, kural tabanlı
+                                    kontroller ve RAG teknolojisini bir araya
+                                    getiriyor. V3 geliştirme süreci devam ediyor.
+                                </p>
+
+                                <h4>Kullanılan teknolojiler</h4>
+                                <p>
+                                    Python, PostgreSQL, ChromaDB, Ollama,
+                                    Qwen2.5-7B, BGE-M3, Streamlit.
+                                </p>
+                            </div>
+                        </details>
+
+                        <a class="github-button"
+                           href="https://github.com/Bus00/Atlas-RAG"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJECT 2: DELETEWATCH -->
+                <article class="project-card">
+                    <div class="project-number">02</div>
+
+                    <div class="project-tags">
+                        <span>Veri analizi</span>
+                        <span>ETL</span>
+                        <span>Risk analizi</span>
+                    </div>
+
+                    <h3>DeleteWatch</h3>
+
+                    <p class="project-summary">
+                        Veri silme kayıtlarını analiz ederek kullanıcı
+                        davranışlarını ve olağan dışı işlem örüntülerini
+                        inceleyen bir veri pipeline projesi.
+                    </p>
+
+                    <div class="project-actions">
+                        <details class="project-details">
+                            <summary>Proje hakkında <span>↗</span></summary>
+
+                            <div class="details-content">
+                                <h4>Proje hakkında</h4>
+
+                                <p>
+                                    DeleteWatch, sistemlerde gerçekleşen veri
+                                    silme işlemlerini incelemek ve bu işlemlerin
+                                    arkasındaki davranış örüntülerini ortaya
+                                    çıkarmak amacıyla geliştirilmiş bir veri
+                                    pipeline projesidir.
+                                </p>
+
+                                <p>
+                                    Proje kapsamında farklı kullanıcılar, veri
+                                    türleri ve silme senaryoları üzerinden
+                                    sentetik log kayıtları oluşturulur. Bu
+                                    kayıtlar JSON formatından alınarak temizlenir,
+                                    dönüştürülür ve analiz için hazırlanır.
+                                </p>
+
+                                <p>
+                                    Analiz aşamasında hangi veri türlerinin daha
+                                    sık silindiği, silme işlemlerinin hangi
+                                    saatlerde yoğunlaştığı ve kullanıcıların
+                                    işlem davranışları incelenir. Veri hassasiyeti,
+                                    mesai dışı işlemler ve toplu silme gibi
+                                    kriterler birlikte değerlendirilerek risk
+                                    puanları hesaplanır.
+                                </p>
+
+                                <p>
+                                    Sonuçlar raporlanır ve SQLite veritabanına
+                                    kaydedilir.
+                                </p>
+
+                                <h4>Proje çıktıları</h4>
+
+                                <ul>
+                                    <li>Üç günlük simülasyonda 104 silme kaydı oluşturuldu.</li>
+                                    <li>En sık silinen veri türü 50 kayıtla müşteri verileri oldu.</li>
+                                    <li>Silme işlemlerinin en yoğun olduğu saat 12.00 olarak belirlendi.</li>
+                                    <li>Risk puanlama ve kullanıcı raporlama yapısı oluşturuldu.</li>
+                                </ul>
+
+                                <h4>Kullanılan teknolojiler</h4>
+                                <p>Python, Pandas, NumPy, SQLite, JSON, YAML.</p>
+                            </div>
+                        </details>
+
+                        <a class="github-button"
+                           href="https://github.com/Bus00/deletewatch"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJECT 3: STUDENT MENTAL HEALTH -->
+                <article class="project-card">
+                    <div class="project-number">03</div>
+
+                    <div class="project-tags">
+                        <span>Makine öğrenmesi</span>
+                        <span>IoT</span>
+                        <span>Veri analizi</span>
+                    </div>
+
+                    <h3>Öğrenci Ruh Sağlığı Risk Analizi</h3>
+
+                    <p class="project-summary">
+                        Çevresel koşullar ve uyku süresi gibi değişkenlerle
+                        stres düzeyleri arasındaki ilişkileri inceleyen
+                        makine öğrenmesi çalışması.
+                    </p>
+
+                    <div class="project-actions">
+                        <details class="project-details">
+                            <summary>Proje hakkında <span>↗</span></summary>
+
+                            <div class="details-content">
+                                <h4>Proje hakkında</h4>
+
+                                <p>
+                                    Bu projede, üniversite öğrencilerinin maruz
+                                    kaldığı çevresel koşulların stres düzeyi ve
+                                    ruh sağlığı riskleriyle ilişkisini incelemek
+                                    amacıyla IoT sensör verilerini temel alan bir
+                                    veri analizi ve makine öğrenmesi çalışması
+                                    gerçekleştirdim.
+                                </p>
+
+                                <p>
+                                    Kaggle üzerinden alınan veri setinde sıcaklık,
+                                    nem, hava kalitesi, gürültü seviyesi,
+                                    kalabalık yoğunluğu ve uyku süresi gibi
+                                    değişkenler incelendi. Keşifsel veri analizi
+                                    ve görselleştirme çalışmalarıyla çevresel
+                                    faktörlerin stres düzeyiyle ilişkileri
+                                    araştırıldı.
+                                </p>
+
+                                <p>
+                                    Çalışmanın devamında sınıflar arasındaki veri
+                                    dengesizliği ele alınarak RandomOverSampler
+                                    yöntemi uygulandı ve Random Forest
+                                    sınıflandırma modeli geliştirildi. Model,
+                                    iki sınıflı tahminde yaklaşık %70 doğruluk
+                                    elde etti.
+                                </p>
+
+                                <h4>Proje çıktıları</h4>
+
+                                <ul>
+                                    <li>Çevresel değişkenler ile stres düzeyleri arasındaki ilişkiler incelendi.</li>
+                                    <li>Veri dengesizliği için RandomOverSampler uygulandı.</li>
+                                    <li>Random Forest sınıflandırma modeli geliştirildi.</li>
+                                    <li>Yaklaşık %70 doğruluk elde edildi.</li>
+                                </ul>
+
+                                <p class="project-note">
+                                    Not: Çalışma eğitim amaçlıdır; klinik tanı veya
+                                    sağlık değerlendirmesi amacı taşımaz.
+                                </p>
+
+                                <h4>Kullanılan teknolojiler</h4>
+                                <p>
+                                    Python, Pandas, NumPy, Matplotlib, Seaborn,
+                                    Scikit-learn, Random Forest.
+                                </p>
+                            </div>
+                        </details>
+
+                        <a class="github-button"
+                           href="https://github.com/Bus00/Impact-of-Environmental-Factors-on-Students-Mental-Health-Using-IoT-Sensor-Data"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJECT 4: HEART DISEASE -->
+                <article class="project-card">
+                    <div class="project-number">04</div>
+
+                    <div class="project-tags">
+                        <span>Veri analizi</span>
+                        <span>Python</span>
+                        <span>Sağlık verileri</span>
+                    </div>
+
+                    <h3>Heart Disease Risk Analysis</h3>
+
+                    <p class="project-summary">
+                        Klinik değişkenleri belirli kriterlere göre
+                        değerlendirerek hastaları risk gruplarına ayıran
+                        kural tabanlı analiz çalışması.
+                    </p>
+
+                    <div class="project-actions">
+                        <details class="project-details">
+                            <summary>Proje hakkında <span>↗</span></summary>
+
+                            <div class="details-content">
+                                <h4>Proje hakkında</h4>
+
+                                <p>
+                                    Bu projede, kalp hastalığına ilişkin klinik
+                                    verileri analiz ederek hastaları belirli
+                                    kriterlere göre risk seviyelerine ayıran
+                                    kural tabanlı bir puanlama sistemi geliştirdim.
+                                </p>
+
+                                <p>
+                                    UCI Cleveland Heart Disease veri seti
+                                    kullanılarak yaş, dinlenme tansiyonu,
+                                    kolesterol, açlık kan şekeri ve egzersiz
+                                    sırasında göğüs ağrısı gibi değişkenler
+                                    incelendi. Belirlenen eşik değerlere göre
+                                    her hasta için toplam risk puanı hesaplandı
+                                    ve hastalar düşük, orta ve yüksek risk
+                                    gruplarına sınıflandırıldı.
+                                </p>
+
+                                <p>
+                                    Analiz sonuçları veri setindeki gerçek
+                                    hastalık durumlarıyla karşılaştırıldı.
+                                    Sonuçlar CSV ve Excel formatlarında dışa
+                                    aktarılarak filtrelenebilir tablolar oluşturuldu.
+                                </p>
+
+                                <h4>Proje çıktıları</h4>
+
+                                <ul>
+                                    <li>Her hasta için sayısal risk puanı hesaplandı.</li>
+                                    <li>Hastalar üç risk grubuna ayrıldı.</li>
+                                    <li>Risk grupları mevcut hastalık etiketleriyle karşılaştırıldı.</li>
+                                    <li>Analiz sonuçları CSV ve Excel formatlarında dışa aktarıldı.</li>
+                                </ul>
+
+                                <p class="project-note">
+                                    Not: Bu çalışma eğitim amaçlı kural tabanlı
+                                    bir analizdir; klinik olarak doğrulanmış
+                                    bir tanı veya tahmin modeli değildir.
+                                </p>
+
+                                <h4>Kullanılan teknolojiler</h4>
+                                <p>Python, Pandas, NumPy, CSV, Excel.</p>
+                            </div>
+                        </details>
+
+                        <a class="github-button"
+                           href="https://github.com/Bus00/Heart-Disease-Risk-Analysis"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJECT 5: E2E DATAFLOW -->
+                <article class="project-card">
+                    <div class="project-number">05</div>
+
+                    <div class="project-tags">
+                        <span>Veri mühendisliği</span>
+                        <span>ETL</span>
+                        <span>SQL</span>
+                    </div>
+
+                    <h3>e2e-dataflow</h3>
+
+                    <p class="project-summary">
+                        Sentetik satış verilerini ham kayıtlardan analitik
+                        tablolara ve otomatik raporlara dönüştüren uçtan
+                        uca veri pipeline sistemi.
+                    </p>
+
+                    <div class="project-actions">
+                        <details class="project-details">
+                            <summary>Proje hakkında <span>↗</span></summary>
+
+                            <div class="details-content">
+                                <h4>Proje hakkında</h4>
+
+                                <p>
+                                    Bu projede, ham satış verilerinden başlayarak
+                                    analitik raporlar üreten otomatik bir veri
+                                    pipeline sistemi geliştirdim. Amaç, gerçek
+                                    bir veri mühendisliği iş akışını modüler
+                                    bir ETL mimarisiyle uygulamaktır.
+                                </p>
+
+                                <p>
+                                    Farklı ülkeleri, ürün kategorilerini,
+                                    sipariş tarihlerini ve ödeme yöntemlerini
+                                    içeren 1.000 satırlık sentetik bir satış
+                                    veri seti oluşturuldu. Veriler Python ve
+                                    Pandas kullanılarak Excel dosyasından alındı;
+                                    gelir hesaplamaları, tarih dönüşümleri ve
+                                    metinsel veri düzenlemeleri gerçekleştirildi.
+                                </p>
+
+                                <p>
+                                    Dönüştürülen veriler eksik değer, yinelenen
+                                    işlem numarası ve geçersiz fiyat veya miktar
+                                    kontrollerinden geçirildi. Ardından SQLite
+                                    veritabanına aktarılarak SQL sorgularıyla
+                                    ülke ve ürün kategorisi bazında satış
+                                    analizleri gerçekleştirildi.
+                                </p>
+
+                                <p>
+                                    Pipeline'ın son aşamasında analiz sonuçları
+                                    CSV raporlarına dönüştürüldü.
+                                </p>
+
+                                <h4>Proje çıktıları</h4>
+
+                                <ul>
+                                    <li>1.000 satırlık sentetik satış veri seti oluşturuldu.</li>
+                                    <li>Ham veriden analitik tabloya uzanan ETL akışı kuruldu.</li>
+                                    <li>Ülke ve ürün kategorisi bazında gelir analizleri yapıldı.</li>
+                                    <li>SQLite üzerinde analitik tablo oluşturuldu.</li>
+                                    <li>Otomatik CSV raporları üretildi.</li>
+                                </ul>
+
+                                <p class="project-note">
+                                    Not: Projede kullanılan satış verileri sentetiktir.
+                                </p>
+
+                                <h4>Kullanılan teknolojiler</h4>
+                                <p>Python, Pandas, SQLite, SQL, YAML, Excel.</p>
+                            </div>
+                        </details>
+
+                        <a class="github-button"
+                           href="https://github.com/Bus00/e2e-dataflow"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJECT 6: FASTQ QC -->
+                <article class="project-card">
+                    <div class="project-number">06</div>
+
+                    <div class="project-tags">
+                        <span>Biyoinformatik</span>
+                        <span>NGS</span>
+                        <span>Kalite kontrol</span>
+                    </div>
+
+                    <h3>FASTQ Kalite Kontrol Aracı</h3>
+
+                    <p class="project-summary">
+                        FASTQ dosyalarındaki baz kalite skorlarını ve
+                        okuma uzunluklarını inceleyen temel kalite
+                        kontrol aracı.
+                    </p>
+
+                    <div class="project-actions">
+                        <details class="project-details">
+                            <summary>Proje hakkında <span>↗</span></summary>
+
+                            <div class="details-content">
+                                <h4>Proje hakkında</h4>
+
+                                <p>
+                                    Bu projede, Yeni Nesil Dizileme (NGS)
+                                    çalışmalarında kullanılan FASTQ dosyalarının
+                                    temel kalite kontrolünü gerçekleştirmek
+                                    amacıyla Python tabanlı bir analiz aracı
+                                    geliştirdim.
+                                </p>
+
+                                <p>
+                                    Biopython kullanılarak FASTQ dosyaları
+                                    okundu ve dizileme okumalarına ait baz
+                                    kalitesi değerleri analiz edildi. Her baz
+                                    pozisyonundaki Phred kalite skorları
+                                    incelenerek düşük kaliteli bölgeler
+                                    belirlendi. Ortalama okuma uzunluğu
+                                    hesaplandı ve Q20 kalite eşiğinin altında
+                                    kalan pozisyonlar için trimming önerisi
+                                    üretildi.
+                                </p>
+
+                                <p>
+                                    Ayrıca baz pozisyonlarına göre kalite
+                                    skorlarının dağılımını gösteren bir grafik
+                                    oluşturuldu. Araç, gerçek FASTQ dosyalarının
+                                    yanı sıra sentetik verilerle demo modunda
+                                    da çalışabiliyor.
+                                </p>
+
+                                <h4>Proje çıktıları</h4>
+
+                                <ul>
+                                    <li>FASTQ dosyalarının okunması ve kalite skorlarının çıkarılması.</li>
+                                    <li>Ortalama read uzunluğunun hesaplanması.</li>
+                                    <li>Q20 altındaki bölgelerin belirlenmesi.</li>
+                                    <li>Kalite dağılım grafiğinin PNG formatında oluşturulması.</li>
+                                </ul>
+
+                                <p class="project-note">
+                                    Not: Bu sürümde trimming uygulanmaz;
+                                    yalnızca düşük kaliteli bölgeler için
+                                    öneri sunulur.
+                                </p>
+
+                                <h4>Kullanılan teknolojiler</h4>
+                                <p>Python, Biopython, Pandas, NumPy, Matplotlib.</p>
+                            </div>
+                        </details>
+
+                        <a class="github-button"
+                           href="https://github.com/Bus00/ngs_Fastq"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJECT 7: WATER QUALITY -->
+                <article class="project-card">
+                    <div class="project-number">07</div>
+
+                    <div class="project-tags">
+                        <span>Veri analizi</span>
+                        <span>Çevre</span>
+                        <span>Görselleştirme</span>
+                    </div>
+
+                    <h3>Water Quality Analysis</h3>
+
+                    <p class="project-summary">
+                        Su kalitesi parametrelerini analiz ederek yıllara
+                        göre değişimi inceleyen ve CSV dosyalarıyla
+                        çalışan masaüstü analiz paneli.
+                    </p>
+
+                    <div class="project-actions">
+                        <details class="project-details">
+                            <summary>Proje hakkında <span>↗</span></summary>
+
+                            <div class="details-content">
+                                <h4>Proje hakkında</h4>
+
+                                <p>
+                                    Bu projede, farklı bölgelerden ve yıllardan
+                                    elde edilen su kalitesi verilerini analiz
+                                    ederek temel su kalite parametrelerinin
+                                    dağılımını ve zaman içindeki değişimini
+                                    inceleyen bir analiz aracı geliştirdim.
+                                </p>
+
+                                <p>
+                                    Kaggle üzerinden temin edilen veri setinde
+                                    pH, çözünmüş oksijen, sıcaklık ve tuzluluk
+                                    değerleri incelendi. Bu parametreler için
+                                    belirlenen eşik aralıkları kullanılarak
+                                    ayrı kalite puanları hesaplandı. Puanların
+                                    ortalaması alınarak her ölçüm için 0 ile 1
+                                    arasında bileşik bir Su Kalitesi Skoru
+                                    oluşturuldu.
+                                </p>
+
+                                <p>
+                                    Python ile gerçekleştirilen analizlerin
+                                    yanı sıra Tkinter kullanılarak bir masaüstü
+                                    analiz paneli geliştirildi. Panel üzerinden
+                                    CSV dosyaları yüklenebiliyor, parametrelerin
+                                    dağılımları görüntülenebiliyor ve yıllara
+                                    göre ortalama su kalitesi değişimi
+                                    grafiklerle incelenebiliyor.
+                                </p>
+
+                                <h4>Proje çıktıları</h4>
+
+                                <ul>
+                                    <li>Dört temel su kalitesi parametresinin analizi.</li>
+                                    <li>Eşik değerlere dayalı puanlama sistemi.</li>
+                                    <li>0–1 aralığında bileşik su kalitesi skoru.</li>
+                                    <li>Yıllara göre ortalama kalite değişiminin görselleştirilmesi.</li>
+                                    <li>CSV dosyası yüklenebilen masaüstü analiz paneli.</li>
+                                </ul>
+
+                                <p class="project-note">
+                                    Not: Oluşturulan skor, proje kapsamında
+                                    geliştirilen özel bir puanlama sistemidir;
+                                    resmî bir su kalite indeksi değildir.
+                                </p>
+
+                                <h4>Kullanılan teknolojiler</h4>
+                                <p>Python, Pandas, NumPy, Matplotlib, Tkinter.</p>
+                            </div>
+                        </details>
+
+                        <a class="github-button"
+                           href="https://github.com/Bus00/su_analizi"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PROJECT 8: LONG-READ FASTQ -->
+                <article class="project-card">
+                    <div class="project-number">08</div>
+
+                    <div class="project-tags">
+                        <span>Biyoinformatik</span>
+                        <span>Long-read</span>
+                        <span>Pipeline</span>
+                    </div>
+
+                    <h3>Long-Read FASTQ QC Pipeline</h3>
+
+                    <p class="project-summary">
+                        Uzun okuma dizileme verilerinin kalite metriklerini
+                        hesaplayan, raporlayan ve analiz adımlarını
+                        otomatikleştiren biyoinformatik iş akışı.
+                    </p>
+
+                    <div class="project-actions">
+                        <details class="project-details">
+                            <summary>Proje hakkında <span>↗</span></summary>
+
+                            <div class="details-content">
+                                <h4>Proje hakkında</h4>
+
+                                <p>
+                                    Bu projede, uzun okuma (long-read)
+                                    teknolojileriyle elde edilen DNA dizileme
+                                    verilerinin kalite özelliklerini
+                                    değerlendirmek ve analiz sürecini
+                                    otomatikleştirmek amacıyla çok aşamalı
+                                    bir biyoinformatik iş akışı geliştirdim.
+                                </p>
+
+                                <p>
+                                    Barcode77 veri setine ait sıkıştırılmış
+                                    FASTQ dosyaları kullanılarak okuma uzunluğu,
+                                    GC içeriği ve baz kalite skorları analiz
+                                    edildi. Python ile geliştirilen analiz
+                                    modülü aracılığıyla her bir okumanın
+                                    uzunluğu ve GC oranı hesaplandı; Phred
+                                    kalite skorları üzerinden ortalama kalite,
+                                    Q20 ve Q30 değerleri değerlendirildi.
+                                    Ayrıca N50 metriği hesaplandı.
+                                </p>
+
+                                <p>
+                                    Analiz sonuçları CSV dosyalarına ve özet
+                                    raporlara aktarıldı. R dili kullanılarak
+                                    ek istatistiksel değerlendirmeler
+                                    gerçekleştirildi. Matplotlib ve Seaborn
+                                    ile okuma uzunluğu, GC içeriği ve kalite
+                                    skorlarının dağılımları görselleştirildi.
+                                </p>
+
+                                <p>
+                                    Snakemake kullanılarak farklı analiz
+                                    adımları tek bir iş akışında birleştirildi.
+                                    NanoStat entegrasyonu ile ek kalite kontrol
+                                    raporu oluşturulacak şekilde pipeline
+                                    yapılandırıldı.
+                                </p>
+
+                                <h4>Proje çıktıları</h4>
+
+                                <ul>
+                                    <li>81.011 uzun okuma verisinin kalite kontrol analizi.</li>
+                                    <li>Ortalama okuma uzunluğu: 1.038,24 bp.</li>
+                                    <li>Ortalama Phred kalite skoru: 17,90.</li>
+                                    <li>Yaklaşık teorik baz doğruluğu: %98,38.</li>
+                                    <li>GC içeriği: yaklaşık %53.</li>
+                                    <li>N50, Q20 ve Q30 metriklerinin hesaplanması.</li>
+                                    <li>CSV, metinsel ve görsel kalite kontrol raporları.</li>
+                                    <li>Snakemake tabanlı analiz iş akışı.</li>
+                                </ul>
+
+                                <h4>Kullanılan teknolojiler</h4>
+                                <p>
+                                    Python, Biopython, Pandas, NumPy, R,
+                                    Matplotlib, Seaborn, Snakemake, NanoStat.
+                                </p>
+                            </div>
+                        </details>
+
+                        <a class="github-button"
+                           href="https://github.com/Bus00/long_read_fastq_qc_pipeline"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="iletisim" class="section contact">
+            <div class="section-heading">
+                <span class="section-label">Bağlantıda kalalım</span>
+                <h2>İletişim</h2>
+                <p>
+                    Projelerim ve çalışmalarım hakkında daha fazla bilgi
+                    için bağlantılarıma göz atabilirsin.
+                </p>
+            </div>
+
+            <div class="contact-links">
+                <a href="https://github.com/Bus00"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub <span>↗</span>
+                </a>
+                <!-- E-posta adresini daha sonra buraya ekleyeceğiz. -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Büşra Kozan. Tüm hakları saklıdır.</p>
+        <a href="#anasayfa">Yukarı dön ↑</a>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
