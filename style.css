@@ -585,12 +585,38 @@ a {
     }
 }
 
+/* FORCE LIGHT MODE */
+
 :root {
-    color-scheme: light;
+    color-scheme: only light;
+    supported-color-schemes: light;
 }
 
-html,
+html {
+    background: #fcfaff !important;
+    color-scheme: only light;
+}
+
 body {
-    background-color: #fffaff;
-    color: #51465f;
+    background: #fcfaff !important;
+    color: #383344 !important;
+}
+
+.navbar,
+.about,
+.contact {
+    background-color: #ffffff !important;
+}
+
+.project-card {
+    background-color: #ffffff !important;
+    color: #383344 !important;
+}
+
+.about-content {
+    background-color: #faf7fd !important;
+}
+
+.project-details summary {
+    color: #ffffff !important;
 }
