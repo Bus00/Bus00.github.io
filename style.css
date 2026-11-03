@@ -584,3 +584,13 @@ a {
         transition-duration: 0.01ms !important;
     }
 }
+
+:root {
+    color-scheme: light;
+}
+
+html,
+body {
+    background-color: #fffaff;
+    color: #51465f;
+}
